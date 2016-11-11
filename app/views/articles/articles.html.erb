@@ -1,0 +1,19 @@
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="assets/blackcover.jpg">
+  </div>
+</div>
+
+<div class="section white">
+  <div class="row container">
+    <h2 class="header">Food-4-Thought</h2>
+    <p class="grey-text text-darken-3 lighten-3">Need something to read? Here's a list of articles that I've stumbled upon over the years that have influenced me one way or another.</p>
+  </div>
+
+  <div class="row container">
+	  <% @articles.each do |article| %>
+	  	<a href="<%= article.source %>"><h4><%= article.title %></h4></a>
+	  	<p><%= article.author %> -- <%= article.date %></p>
+	  <% end %>
+  </div>
+</div>
