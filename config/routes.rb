@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
-  get "/" => "home#home"
+  get "/" => "cover#cover"
+  get "/home" => "home#home"
 
 end
