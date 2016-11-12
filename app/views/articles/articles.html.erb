@@ -4,13 +4,18 @@
     <nav class="navbar">
       <div class="nav-wrapper">
         <a href="/" id="brand-color" class="brand-logo">JLM</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
+          <li><a class="link-color" href="/home">Home</a></li>
+          <li><a class="link-color" href="/articles">Food-4-Thought</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
           <li><a class="link-color" href="/home">Home</a></li>
           <li><a class="link-color" href="/articles">Food-4-Thought</a></li>
         </ul>
       </div>
     </nav>
-  </div> <!-- navbar within container  -->
+  </div> <!-- navbar within container (before partial) -->
 
   <div class="parallax">
     <img src="assets/blackcover.jpg">
@@ -30,25 +35,3 @@
 	  <% end %>
   </div>
 </div>
-
-<footer class="page-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col l6 s12">
-        <h5>Footer Content</h5>
-        <p class="grey-text">You can use rows and columns here to organize your footer content.</p>
-      </div>
-      <div class="col l4 offset-l2 s12">
-        <h5>...</h5>
-        <ul>
-          <li><a class="grey-text" href="/articles">Food-4-Thought</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright">
-    <div class="container">
-    © 2016 JLM
-    </div>
-  </div>
-</footer>
