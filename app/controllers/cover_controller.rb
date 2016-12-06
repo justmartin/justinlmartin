@@ -1,2 +1,0 @@
-class CoverController < ApplicationController
-end
