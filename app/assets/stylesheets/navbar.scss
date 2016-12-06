@@ -3,6 +3,10 @@
 	transition: 0.3s all linear;
 }
 
+nav .brand-logo {
+	display: none !important;
+}
+
 .link-color, #brand-color{
 	color: #757575
 }
