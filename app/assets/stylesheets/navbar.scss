@@ -26,3 +26,10 @@ nav {
 	height: 50px !important;
 	line-height: 50px !important;
 }
+
+@media only screen and (min-width: 601px) {
+	nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+		height: 50px !important;
+		line-height: 50px !important;
+	}
+}
