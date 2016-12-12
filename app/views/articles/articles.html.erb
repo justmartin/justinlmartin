@@ -14,7 +14,7 @@
 
   <div class="row container">
 	  <% @articles.each do |article| %>
-	  	<a target="_blank" href="<%= article.source %>"><h4><%= article.title %></h4></a>
+	  	<a target="_blank" href="<%= article.source %>"><h5><%= article.title %></h5></a>
 	  	<p><%= article.author %> -- <%= article.date %></p>
 	  <% end %>
   </div>
