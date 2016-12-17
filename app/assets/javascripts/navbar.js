@@ -10,11 +10,14 @@ $(document).ready(function(){
 	$(window).scroll(function() {
     var scrollPos = $(window).scrollTop(),
         navbar = $('.navbar');
+        linkColor = $('.link-color')
 
     if (scrollPos > 20) {
       navbar.addClass('change-color');
+      linkColor.addClass('change-text-color');
     } else {
       navbar.removeClass('change-color');
+      linkColor.removeClass('change-text-color');
     }
   });
 
