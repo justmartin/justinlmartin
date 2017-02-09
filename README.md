@@ -1,24 +1,18 @@
-# README
+# JS Sound Kit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple sound kit built with javascript and delivered with Ruby on Rails.
 
-Things you may want to cover:
+## How To Launch
 
-* Ruby version
+Clone repository and cd into project's directory
 
-* System dependencies
+Run 'rails s'
 
-* Configuration
+Visit 'http://localhost:3000/'
 
-* Database creation
+## Usage
 
-* Database initialization
+1 - Use keys to press numbers and play corresponding sounds.
+2 - Use mouse to click on numbers to play corresponding sounds.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Have fun!
