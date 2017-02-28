@@ -40,8 +40,9 @@
 	margin-top: 200px;
 }
 
-.parallax {
-	background-color: black;
+.parallax img{
+	background: linear-gradient(rgba(20,20,20, .6), rgba(20,20,20, .6));
+	width: 100%; 
 }
 
 .hi-img {
