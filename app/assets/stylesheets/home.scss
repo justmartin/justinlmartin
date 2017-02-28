@@ -2,44 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.intro {
-	text-align: justify;
-}
 
-.container-content {
-	text-align: center;
-}
-
-.where-learned-image {
-	height: 100px;
-}
-
-.about-image {
-	height: 50px;
-}
-
-.about-title{
-	color: red;
-}
-
-.project-image {
-	width: 100%;
-	border-style: solid;
-	border-width: 1px;
-}
-
-.what-learned-image {
-	height: 50px;
-}
-
-.home-heading {
-	color: white;
-	text-align: center;
-	letter-spacing: 40px;
-	font-size: 30px;
-	margin-top: 150px;
-}
-
+//Parallax Container =============================================================================
 .parallax img{
 	width: 100%; 
 }
@@ -49,36 +13,12 @@
   background: linear-gradient(rgba(20,20,20, .7), rgba(20,20,20, .7));
 }
 
-.hi-img {
-	height: 300px;
-}
-
-.row {
-	margin-top: 40px;
-}
-
-.heading-tags {
-	letter-spacing: 0px;
-	color: #B02B2C;
-}
-
-.bold {
-	font-weight: bold;
-}
-
-.project-title {
-	font-size: 15px;
-	font-weight: bold;
-	color: #B02B2C;
-}
-
-.contact-image {
-	height: 50px;
-}
-
-.contact-image-opacity {
-	opacity: 0.5;
-	transition: all 0.2s;
+.home-heading {
+	color: white;
+	text-align: center;
+	letter-spacing: 40px;
+	font-size: 30px;
+	margin-top: 150px;
 }
 
 .mobile-home-heading {
@@ -90,7 +30,84 @@
 	margin-top: 75px;
 }
 
-@media only screen and (max-width: 500px) {
+.heading-tags {
+	letter-spacing: 0px;
+	color: #B02B2C;
+}
+
+//Hi =============================================================================
+.intro {
+	text-align: justify;
+}
+
+.hi-img {
+	height: 300px;
+}
+
+//Ed + Work =============================================================================
+.where-learned-image {
+	height: 100px;
+}
+
+//Skills ================================================================================
+.what-learned-image {
+	height: 50px;
+}
+
+//Projects ==============================================================================
+.project-image {
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.project-title {
+	font-size: 15px;
+	font-weight: bold;
+	color: #B02B2C;
+}
+
+//About =================================================================================
+.about-image {
+	height: 50px;
+}
+
+.about-title{
+	color: red;
+}
+
+//Contact ==============================================================================
+.contact-image {
+	height: 50px;
+}
+
+.contact-image-opacity {
+	opacity: 0.5;
+	transition: all 0.2s;
+}
+
+//Multi-Use ==============================================================================
+.row {
+	margin-top: 40px;
+}
+
+.container-content {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+//Media Queries =============================================================================
+
+@media only screen and (max-width: 650px) {
+	.parallax-container {
+    height: 400px !important;
+   }
+}
+
+@media only screen and (max-width: 450px) {
 	.parallax-container {
     height: 300px !important;
    }
@@ -103,4 +120,3 @@
 		display: block;
 	}
 }
-
