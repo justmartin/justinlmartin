@@ -80,3 +80,27 @@
 	opacity: 0.5;
 	transition: all 0.2s;
 }
+
+.mobile-home-heading {
+	display: none;
+	color: white;
+	text-align: center;
+	letter-spacing: 20px;
+	font-size: 25px;
+	margin-top: 75px;
+}
+
+@media only screen and (max-width: 500px) {
+	.parallax-container {
+    height: 300px !important;
+   }
+
+  .home-heading {
+		display: none;
+	}
+
+	.mobile-home-heading {
+		display: block;
+	}
+}
+
