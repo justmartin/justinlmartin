@@ -1,5 +1,5 @@
-a {
-  color: #fff;
+.social a {
+  color: #B02B2C;
   text-decoration: none;
 }
 
@@ -11,10 +11,10 @@ a {
 .social ul {
   padding: 0px;
   transform: translate(-280px, 0px);
-  // -webkit-transform: translate(-270px, 0px);
-  // -ms-transform: translate(-270px, 0px);
-  // -moz-transform: translate(-270px, 0px);
-  // -o-transform: translate(-270px, 0px);
+  -webkit-transform: translate(-280px, 0px);
+  -ms-transform: translate(-280px, 0px);
+  -moz-transform: translate(-280px, 0px);
+  -o-transform: translate(-280px, 0px);
 }
 
 .social ul li {
@@ -34,12 +34,44 @@ a {
   -o-transition: 0px 30px 30px 0px;
 }
 
+// .social ul li i {
+//   margin-left: 10px;
+//   // color: #000;
+//   // background: #fff;
+//   // padding: 10px;
+//   // height: 20px;
+//   // width: 20px;
+//   // font-size: 20px;
+//   // background: #ffffff;
+//   // transform: rotate(0deg);
+// }
+
+// Hover Effects =====================================================================
+
 .social ul li:hover {
-  background: rgba(255,255,255,0.4);
+  background: #B02B2C;
   transform: translate(70px, 0px);
-  // -webkit-transform: translate(110px, 0px);
-  // -ms-transform: translate(110px, 0px);
-  // -moz-transform: translate(110px, 0px);
-  // -o-transform: translate(110px, 0px);
+  -webkit-transform: translate(70px, 0px);
+  -ms-transform: translate(70px, 0px);
+  -moz-transform: translate(70px, 0px);
+  -o-transform: translate(70px, 0px);
+}
+
+.social ul li:hover a {
+  color: #ffffff;
+}
+
+.social ul li:hover i {
+  color: #ffffff;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -ms-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
 }
 
